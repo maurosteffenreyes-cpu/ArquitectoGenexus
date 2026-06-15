@@ -119,7 +119,7 @@ if ($path -notlike "*T:\Apache_Tomcat\bin*")          { $path += ";T:\Apache_Tom
 - Tomcat Patch: `T:\Apache_Tomcat`
 - Servlet Dir: `T:\Apache_Tomcat\webapps\Abonos218U5JavaPostgreSQL\WEB-INF\classes`
 - Static Dir:  `T:\Apache_Tomcat\webapps\Abonos218U5JavaPostgreSQL\static`
-- Drivers:     `C:\Users\Mauro\Desktop\Kbs\Abonos218U5\DESA\web\drivers`
+- Drivers:     `C:\Users\Mauro\Desktop\Kbs\Abonos218U5\DE\web\drivers`
 
 ---
 
@@ -146,6 +146,24 @@ Compose    : T:\Docker_Environment\docker-compose.yml
 | gx      | gx123      | usuario   |
 
 ---
+
+
+**Credenciales SQL:**
+
+Ambiente:   DESARROLLO Abonos base principal del sistema
+DBMS Postgres
+
+BD:         desa_abonos_gx
+BD:         desa_dbanep
+BD:         desa_dbvarios
+
+Unico IP:         192.168.200.163
+Unico Puerto:     6432
+
+Unico Usuario:    abonos_desa
+```
+
+
 
 # GRADLE BUILD (comando canónico)
 
