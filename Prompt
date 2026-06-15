@@ -132,6 +132,7 @@ Datos      : T:/Docker_Volumes/SQL/data → /var/opt/mssql/data
 KBs mount  : T:/Kbs → /var/opt/mssql/kbs
 Red        : docker_environment_gx_net | IP: 172.18.0.2 | GW: 172.18.0.1
 Compose    : T:\Docker_Environment\docker-compose.yml
+Module     : GeneXus   (Version: 4.6.1.176887)
 ```
 
 ---
