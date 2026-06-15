@@ -27,6 +27,33 @@ Ejecutable: "C:\Program Files (x86)\GeneXus\GeneXus18\GeneXus.exe"
 Iniciar en: C:\Program Files (x86)\GeneXus\GeneXus18"
 
 
+Primer REbuild All:
+
+
+warning: pmm0003: Built-in 'GeneXus' module should be updated to version 4.5.1.175032.
+========== Copy Module 'GeneXus' started ==========
+Success: Copy Module 'GeneXus'
+========== Copy Module 'Extensions' started ==========
+[INFO] Scanning for projects...
+[INFO]
+[INFO] ------------------------< com.genexus:download >------------------------
+[INFO] Building Download Dependencies from Nexus 1.0
+[INFO]   from pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO]
+[INFO] --- dependency:3.1.1:copy-dependencies (copy-dependencies) @ download ---
+[INFO] Copying webextensiontoolkit-1.1.20230708.opc to C:\Users\Mauro\.gxmodules\.cache\.matrix\Global Matrix\WebExtensionToolkit1.1.20230708\webextensiontoolkit-1.1.20230708.opc
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  13.125 s
+[INFO] Finished at: 2026-06-15T18:28:12-03:00
+[INFO] ------------------------------------------------------------------------
+Success: Copy Module 'Extensions'
+========== Target Environment update started ==========
+
+
+
 Configuracion: Tomcat Patch: T:\Apache_Tomcat
 
 
