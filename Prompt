@@ -23,6 +23,14 @@ GeneXus 17 U5
 
 GeneXus 18 u5:  "C:\Program Files (x86)\GeneXus\GeneXus18\GeneXus.exe"
 
+Configuracion: Tomcat Patch: T:\Apache_Tomcat
+
+T:\Apache_Tomcat\webapps\Abonos218U5JavaPostgreSQL\WEB-INF\classes
+
+T:\Apache_Tomcat\webapps\Abonos218U5JavaPostgreSQL\static
+
+T:\Programas\jdk
+
 Todo con el  Generador Java
 
 
