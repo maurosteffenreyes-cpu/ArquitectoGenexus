@@ -21,7 +21,11 @@ Nombre del PC: PC
 
 GeneXus 17 U5
 
-GeneXus 18 u5:  "C:\Program Files (x86)\GeneXus\GeneXus18\GeneXus.exe"
+GeneXus 18 u5:  
+
+Ejecutable: "C:\Program Files (x86)\GeneXus\GeneXus18\GeneXus.exe"
+Iniciar en: C:\Program Files (x86)\GeneXus\GeneXus18"
+
 
 Configuracion: Tomcat Patch: T:\Apache_Tomcat
 
@@ -336,6 +340,8 @@ docker_environment/sql_gx_server
 	}
 }
 
+Inicio ReBuild All:
+T:\Kbs\Abonos218U5Dario\DESA\web\gradlew.bat clean -PTOMCAT_WEBAPP_PATH="T:\Apache_Tomcat\webapps\Abonos218U5JavaPostgreSQL" -Dorg.gradle.jvmargs=-Xmx1024m
 
 
 
