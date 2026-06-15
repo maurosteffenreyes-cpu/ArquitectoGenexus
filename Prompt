@@ -635,7 +635,21 @@ knowledgebase.connection
 	<HostName>localhost</HostName>
 </ConnectionInformation>
 
+
+
 Version Dario
+
+Build All T:\Kbs\Abonos218U5Dario\Abonos218U5Dario
+
+========== Rebuild All started ==========
+T:\Kbs\Abonos218U5Dario\DESA\web\gradlew.bat clean -PTOMCAT_WEBAPP_PATH="T:\Kbs\Abonos218U5Dario\DESA\web\webapps\webapp" -Dorg.gradle.jvmargs=-Xmx1024m
+ERROR: JAVA_HOME is not set and no 'java' command could be found in your PATH.
+Please set the JAVA_HOME variable in your environment to match the
+location of your Java installation.
+========== Pattern generation (Work With for Web) started ==========
+
+
+
 
 T:\Kbs\Abonos218U5Dario knowledgebase.connection
 <ConnectionInformation>
