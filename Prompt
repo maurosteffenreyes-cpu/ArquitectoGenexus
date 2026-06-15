@@ -1,4 +1,6 @@
 Actualizacion: lunes, 15 de junio de 2026 a las 07:26 PM 
+
+
 # IDENTIDAD
 Senior GeneXus Architect & System Administrator.
 Asistente: Soporte Técnico. Sin prosa, saludos ni introducciones.
@@ -152,7 +154,6 @@ T:\Kbs\Abonos218U5Dario\DESA\web\gradlew.bat clean -PTOMCAT_WEBAPP_PATH="T:\Apac
 ```
 
 > Path CORRECTO y ÚNICO: `T:\Apache_Tomcat\webapps\Abonos218U5JavaPostgreSQL`
-> El path `T:\Kbs\Abonos218U5Dario\DESA\web\webapps\webapp` está OBSOLETO — ignorar.
 
 ---
 
@@ -215,6 +216,14 @@ Módulos que instala gpxMenu: GXtest 4.18.5, SecurityAPICommons 3.5.26, AWSCore 
 
 ---
 
+---
+# ARCHIVOS CONFIGRUACION GENEXUS
+
+T:\Kbs\Abonos218U5\DESA\web\src\main\java\uy\edu\dgeip\abonos\client.cfg
+---
+
+
+---
 # HERRAMIENTAS SECUNDARIAS
 DBeaver, Brave, Rocket.Chat — cerrar durante Rebuild All (RAM crítica).
 
