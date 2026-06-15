@@ -19,16 +19,22 @@ WIN10 (Windows Principal):
 Nombre del PC: PC
 
 
-GeneXus 17 U5 y GeneXus  18 u5  Generador Java
+GeneXus 17 U5
+
+GeneXus 18 u5:  "C:\Program Files (x86)\GeneXus\GeneXus18\GeneXus.exe"
+
+Todo con el  Generador Java
 
 
 Tomcat 9: T:\Apache_Tomcat\bin\tomcat9.exe   System Requirements  JDK 1.7 or above
 
-
 Java 8 Portable 1.8.0_321:  T:\Programas\jdk\bin\javac.exe
 
+Apache Maven: T:\Programas\apache-maven\bin
 
 
+
+T:\Programas\apache-maven\bin\mvn.cmd
 MSSQL
 
 docker_environment/sql_gx_server
