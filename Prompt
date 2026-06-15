@@ -588,19 +588,11 @@ Package 'Abstracta.GXtest.BL.dll' added
 Scanning package 'Abstracta.GXtest.UI.dll'
 Package 'Abstracta.GXtest.UI.dll' added
 Scanning package 'Artech.Editors.Common.dll'
-Package 'Artech.Editors.Common.dll' added
-Scanning package 'Artech.Editors.Common.Web.dll'
-Package 'Artech.Editors.Common.Web.dll' added
-Scanning package 'Artech.Gam.Common.dll'
-Scanning package 'Artech.Gam.Helpers.dll'
-Scanning package 'Artech.Gam.Interop.dll'
-Scanning package 'Artech.Gam.Packager.BL.dll'
 
 
 
 
 
-Versión Mauro del sistema de abonos
 
 
 
@@ -611,8 +603,22 @@ T:\Instaladores\UserControlsGenexus18U5\Alertify.zip
 
 
 
-Base de mi KBT:\Kbs\Abonos218U5
 
+Parte Salida Consola al instalar Alertify
+Base de mi KBT:\Kbs\Abonos218U5
+Loading Packages...
+Scanning package 'Abstracta.GXtest.BL.dll'
+Package 'Abstracta.GXtest.BL.dll' added
+Scanning package 'Abstracta.GXtest.UI.dll'
+Package 'Abstracta.GXtest.UI.dll' added
+Scanning package 'Artech.Editors.Common.dll'
+
+
+
+
+
+
+Versión Mauro del sistema de abonos
 
 
 knowledgebase.connection
