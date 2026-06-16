@@ -26,9 +26,16 @@ El ambiente de prueba va después.
 **SALIDA:**
 - Respuesta mínima viable. Ahorro de tokens.
 - Al final de cada respuesta → `Mauro lee:` + máx. 5 líneas + qué ejecutar.
-- En código: última línea = `# ── [fecha/hora] | Soporte Técnico ──`
+- Alo codigo generado poneel una raya distinta que ve fueret  y qu ediga cdódigo generado inicio fin del codigo pegado en powesell
+
+- En código: primera línea afuera del codigo  para mostrar al usuario  = `# Inicio de Codigo Pegado : N° ── [fecha/hora] Formato Comppleto | Soporte Técnico ──`
+- En código: primera línea adentro del codigo de foma comentada = `# Inicio de Codigo Pegado : N° ── [fecha/hora] Formato Comppleto | Soporte Técnico ──`
+- En código: ultima  línea adentro del codigo de foma comentada = `# Fin de Codigo Pegado    : N° ── [fecha/hora] Formato Comppleto | Soporte Técnico ──`
+- En código: ultima  línea afuera del codigo , para mostrar al usuario = `# Fin de Codigo Pegado    : N° ── [fecha/hora] Formato Comppleto | Soporte Técnico ──`
+
 - Mensaje NO inicia con `Gx` → seco, breve, minimalista.
 - Mensaje inicia con `Gx` → activar perfil Senior GeneXus Architect.
+- En la ultima linea Alo codigo generado poneel una raya distinta que ve fueret  y qu ediga cdogti generado inicio fin del codigo pegado en powesell
 
 ---
 
@@ -205,25 +212,7 @@ Clases faltantes en la KB de Dario (existen en KB de Mauro):
 | Clase faltante                                    | Archivos afectados                                          |
 |---------------------------------------------------|-------------------------------------------------------------|
 | `inslogsis`                                       | actimpabomes.java, addllamadosproducciontodaslasreferencias |
-| `obtempnom`                                       | arptimpabonos_impl, arpttotpromesabonos_impl, reptotpromesabo_impl, repimpabo_impl |
-| `isauthorized`                                    | calcviaabi_impl, carimpabo_impl, devabo_impl, emisionabonosinspeccion_impl, verparproabo_impl, viewdeploc_impl, permautreiefe, permreiefe, permanureiefe, emisionacreayemiteceipsolici_impl |
-| `gpxmenudinamicoceip`                             | addllamadosproducciontodaslasreferencias, ceiprwdmenu_impl  |
-| `actusuultacc`                                    | calcmes.java, carimpabomes.java                             |
-| `actconusu`                                       | iniconusu.java                                              |
-| `irpfexcel`                                       | obtenerexcelirpf_impl.java                                  |
-| `uy.edu.dgeip.abonos.general.ui.listprograms`     | addllamadosproducciontodaslasreferencias (package incorrecto)|
-| `salidaaexcelporinspeccion`                       | reportescontables_impl                                      |
-| `proyecionfacturadosalidaexcel`                   | reportescontables_impl                                      |
-| `xlsabonos1`                                      | reportescontables_impl                                      |
-| `funcionariosconabonosfechadadaexcel`             | reportescontables_impl                                      |
-| `excelfuncionarioscantidaddeabonospormes`         | reportescontables_impl                                      |
-| `excelfuncionarioscantidaddeabonospormespersona`  | reportescontables_impl                                      |
-| `excelfuncionarioscantidaddeabonospormesnodocentes`| reportescontables_impl                                     |
-| `excelabonosdepartamentoorigendestinocopy117062021`| reportescontables_impl (×2)                                |
-| `excelabonosdepartamentoorigendestinocopy117062021copy1parasandra`| reportescontables_impl              |
-| `xlsabonoscodicen15052023`                        | reportescontables_impl                                      |
-| `abonosareaatributoexcel`                         | reportescontables_impl                                      |
-| `obtengodatosrealesdelafactura`                   | wpconfirmardesasociarabonos_impl                            |
+
 
 Diagnóstico: La KB de Dario no tiene sincronizados estos objetos con la de Mauro.
 
@@ -231,12 +220,11 @@ Diagnóstico: La KB de Dario no tiene sincronizados estos objetos con la de Maur
 
 # USER CONTROLS INSTALADOS
 
-| UC       | Archivo                                                      |
-|----------|--------------------------------------------------------------|
-| gpxMenu  | T:\Instaladores\UserControlModificadosporMi\gpxMenu.zip      |
-| (custom) | T:\Instaladores\ReportHtmlControlRender.js                   |
-| Window   | T:\Instaladores\UserControlsGenexus18U5\Window.zip           |
-| Alertify | T:\Instaladores\UserControlsGenexus18U5\Alertify.zip         |
+| UC       | Archivo                                                      |                    Custm                             |
+|----------|--------------------------------------------------------------|------------------------------------------------------|
+| gpxMenu  | T:\Instaladores\UserControlModificadosporMi\gpxMenu.zip      | custom T:\Instaladores\ReportHtmlControlRender.js
+| Window   | T:\Instaladores\UserControlsGenexus18U5\Window.zip           |------------------------------------------------------|
+| Alertify | T:\Instaladores\UserControlsGenexus18U5\Alertify.zip         |------------------------------------------------------|
 
 Módulos que instala gpxMenu: GXtest 4.18.5, SecurityAPICommons 3.5.26, AWSCore 2.5.5, AWSQueue 2.5.5, AzureCore 2.5.5
 
