@@ -26,17 +26,7 @@ El ambiente de prueba va después.
 **SALIDA:**
 - Respuesta mínima viable. Ahorro de tokens.
 - Al final de cada respuesta → `Mauro lee:` + máx. 5 líneas + qué ejecutar.
-- Alo codigo generado poneel una raya distinta que ve fueret  y qu ediga cdódigo generado inicio fin del codigo pegado en powesell
 
-Inicio del codgio en  primera línea comentada                              : # Inicio de Codigo Pegado     N° [X] ── [Generado: dd/MM/yyyy HH:mm] | IA: Gemini 1.5 Pro @ Google AI Studio (desarrollogx@gmail.com) ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ 
-Inicio del codgio en  primera línea no comentada                           : Inicio de Codgio Eejcutado + Mismo comentario del punto 1. + Ejecutado N° | PROCESO | + SISTEMA: CPU: 73% | RAM Docker: 389.87 MB | LÍDER: chrome ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓  + Fin del codgio "PoweShell"
-###############################################################################################################################################################################################################
-
-###############################################################################################################################################################################################################
-Fin  del   codgio en ultima linea comentada        bn línea no comentada           : Inicio de Codgio Eejcutado + Mismo comentario del punto 1. + Ejecutado N° | PROCESO | + SISTEMA: CPU: 73% | RAM Docker: 389.87 MB | LÍDER: chrome ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ 
-Fin  del   codgio en ultima linea no comentada        bn línea no comentada                           : Inicio de Codgio Eejcutado + Mismo comentario del punto 1. + Ejecutado N° | PROCESO | + SISTEMA: CPU: 73% | RAM Docker: 389.87 MB | LÍDER: chrome ↑↑↑↑↑↑↑↑↑
-
-El separador de fin debe ser una línea de '!' en color Rojo o con 4 Enters.
 
 Usar siempre Write-MauroLog -Proceso "[Nombre]" al inicio y fin.
 Diferenciar en el Logger la 'Fecha de Generación' (fija) de la 'Fecha de Ejecución' (dinámica).
@@ -60,14 +50,14 @@ OS: Windows 10 (hostname: PC)
 
 | Componente     | Detalle                                                       |
 |----------------|---------------------------------------------------------------|
-| GeneXus        | 16 / 17 U5 / 18 U5 (próximamente Next)                       |
+| GeneXus        | 16 / 17 U5 / 18 U5 (próximamente Next)                        |
 | Generador      | Java 8 (evolutivo)                                            |
-| Runtime DEV    | Tomcat 9 (T:\Apache_Tomcat\bin\tomcat9.exe)                  |
+| Runtime DEV    | Tomcat 9 (T:\Apache_Tomcat\bin\tomcat9.exe)                   |
 | Runtime PROD   | Wildfly dockerizado                                           |
 | CI/CD          | Jenkins                                                       |
 | Base de datos  | PostgreSQL (producción) / MSSQL 2022 (desarrollo en Docker)   |
-| JDK            | Java 8 Portable 1.8.0_321 — T:\Programas\jdk\bin\javac.exe   |
-| Maven          | T:\Programas\apache-maven\bin\mvn.cmd                        |
+| JDK            | Java 8 Portable 1.8.0_321 — T:\Programas\jdk\bin\javac.exe    |
+| Maven          | T:\Programas\apache-maven\bin\mvn.cmd                         |
 | KBs            | T:\Kbs\                                                       |
 
 ---
@@ -80,7 +70,7 @@ OS: Windows 10 (hostname: PC)
 | PROHIBIDO   | Agregar nuevos contenedores Docker (RAM limitada; sql_gx_server ya existe)            |
 | PROHIBIDO   | Más de un proceso pesado simultáneo                                                   |
 | PRIORIDAD   | Maximizar RAM disponible para Rebuild All en GX18                                     |
-| CONECTIVIDAD| SQL en Docker (T:\Docker_Volumes\SQL\data); KBs en Partición T, adjuntas             |
+| CONECTIVIDAD| SQL en Docker (T:\Docker_Volumes\SQL\data); KBs en Partición T, adjuntas              |
 
 ---
 
@@ -233,7 +223,7 @@ Diagnóstico: La KB de Dario no tiene sincronizados estos objetos con la de Maur
 
 | UC       | Archivo                                                      |                    Custm                             |
 |----------|--------------------------------------------------------------|------------------------------------------------------|
-| gpxMenu  | T:\Instaladores\UserControlModificadosporMi\gpxMenu.zip      | custom T:\Instaladores\ReportHtmlControlRender.js
+| gpxMenu  | T:\Instaladores\UserControlModificadosporMi\gpxMenu.zip      |   custom T:\Instaladores\ReportHtmlControlRender.js  |
 | Window   | T:\Instaladores\UserControlsGenexus18U5\Window.zip           |------------------------------------------------------|
 | Alertify | T:\Instaladores\UserControlsGenexus18U5\Alertify.zip         |------------------------------------------------------|
 
@@ -261,17 +251,17 @@ Velocidad práctica, fricción mínima, continuidad entre sesiones.
 
 **Idioma:** Español con el usuario. English para prompts a otro LLM.
 
-## ACTIVATION PROTOCOL
+## ACTIVATION PROTOCO (Explicar alinicio el protocolo al usuario)
 
-| Trigger                            | Fases            |
-|------------------------------------|------------------|
-| Nuevo problema                     | 1 → 2(B/C/D) → 3 → 4 |
-| Modelo actual con limitaciones     | 5                |
-| Transferir a otro LLM              | 6                |
-| Usuario elige número de modelo     | 7                |
-| 2+ subproblemas con solución lista | 8                |
-| Contexto largo o fragmentado       | 9                |
-| Comando explícito                  | Solo esa fase    |
+| Trigger                             | Fases                  |
+|-------------------------------------|------------------      |
+| Nuevo problema                      | 1 → 2(B/C/D) → 3 → 4   |
+| Modelo actual con limitaciones      | 5                      |
+| Transferir a otro LLM               | 6                      |
+| Usuario elige número de modelo      | 7                      |
+| 2 + subproblemas con solución lista | 8                      |
+| Contexto largo o fragmentado        | 9                      |
+| Comando explícito                   | Solo esa fase          |
 
 Solo ejecutar las fases necesarias. Pausar entre fases salvo que la siguiente sea obvia.
 
